@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290251C21E85082A000D74EB /* UIImage+DEWAvoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 290251C11E85082A000D74EB /* UIImage+DEWAvoid.m */; };
+		291106211E8CDB0200634478 /* UILabel+DEWLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 291106201E8CDB0200634478 /* UILabel+DEWLayout.m */; };
+		295505A71E4C66A3000F0969 /* NSArray+DEWSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505831E4C66A3000F0969 /* NSArray+DEWSafe.m */; };
+		295505A81E4C66A3000F0969 /* NSDate+DEWTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505851E4C66A3000F0969 /* NSDate+DEWTimeline.m */; };
+		295505A91E4C66A3000F0969 /* NSDictionary+DEWSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505871E4C66A3000F0969 /* NSDictionary+DEWSafe.m */; };
+		295505AA1E4C66A3000F0969 /* NSMutableArray+DEWDuplicateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505891E4C66A3000F0969 /* NSMutableArray+DEWDuplicateAdd.m */; };
+		295505AB1E4C66A3000F0969 /* NSObject+DEWDefaultValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2955058B1E4C66A3000F0969 /* NSObject+DEWDefaultValue.m */; };
+		295505AC1E4C66A3000F0969 /* NSString+DEWLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2955058D1E4C66A3000F0969 /* NSString+DEWLayout.m */; };
+		295505AD1E4C66A3000F0969 /* NSString+DEWMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2955058F1E4C66A3000F0969 /* NSString+DEWMD5.m */; };
+		295505AE1E4C66A3000F0969 /* NSString+DEWRemoveSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505911E4C66A3000F0969 /* NSString+DEWRemoveSpace.m */; };
+		295505AF1E4C66A3000F0969 /* DEWFirstStartWarpper.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505951E4C66A3000F0969 /* DEWFirstStartWarpper.m */; };
+		295505B01E4C66A3000F0969 /* UIColor+DEWHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505981E4C66A3000F0969 /* UIColor+DEWHex.m */; };
+		295505B11E4C66A3000F0969 /* UIControl+DEWAvoidMutiTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2955059A1E4C66A3000F0969 /* UIControl+DEWAvoidMutiTouch.m */; };
+		295505B21E4C66A3000F0969 /* UIFont+DEWLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2955059C1E4C66A3000F0969 /* UIFont+DEWLayout.m */; };
+		295505B31E4C66A3000F0969 /* UIImage+DEWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2955059E1E4C66A3000F0969 /* UIImage+DEWColor.m */; };
+		295505B41E4C66A3000F0969 /* UIImage+DEWCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505A01E4C66A3000F0969 /* UIImage+DEWCompress.m */; };
+		295505B51E4C66A3000F0969 /* UIImage+DEWCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505A21E4C66A3000F0969 /* UIImage+DEWCornerRadius.m */; };
+		295505B61E4C66A3000F0969 /* UIScrollView+DEWTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505A41E4C66A3000F0969 /* UIScrollView+DEWTouch.m */; };
+		295505B71E4C66A3000F0969 /* UIView+DEWShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505A61E4C66A3000F0969 /* UIView+DEWShadow.m */; };
+		295505BA1E4C83B0000F0969 /* UIButon+DEWTouchBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505B91E4C83B0000F0969 /* UIButon+DEWTouchBounds.m */; };
+		295505BD1E4C9109000F0969 /* UILabel+DEWLineSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505BC1E4C9109000F0969 /* UILabel+DEWLineSpacing.m */; };
+		295505C01E4C986A000F0969 /* DEWCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 295505BF1E4C986A000F0969 /* DEWCGUtilities.m */; };
+		295506111E4DB195000F0969 /* UIBarButtonItem+DEWBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 295506101E4DB195000F0969 /* UIBarButtonItem+DEWBadge.m */; };
+		299599191E349DA4003D714B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 299599181E349DA4003D714B /* main.m */; };
+		2995991C1E349DA4003D714B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2995991B1E349DA4003D714B /* AppDelegate.m */; };
+		2995991F1E349DA4003D714B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2995991E1E349DA4003D714B /* ViewController.m */; };
+		299599221E349DA4003D714B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299599201E349DA4003D714B /* Main.storyboard */; };
+		299599241E349DA4003D714B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299599231E349DA4003D714B /* Assets.xcassets */; };
+		299599271E349DA4003D714B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299599251E349DA4003D714B /* LaunchScreen.storyboard */; };
+		29BE493F1E8380F200625F6D /* UIViewController+DEWAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BE493E1E8380F200625F6D /* UIViewController+DEWAlertController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		290251C01E85082A000D74EB /* UIImage+DEWAvoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DEWAvoid.h"; sourceTree = "<group>"; };
+		290251C11E85082A000D74EB /* UIImage+DEWAvoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DEWAvoid.m"; sourceTree = "<group>"; };
+		2911061F1E8CDB0200634478 /* UILabel+DEWLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DEWLayout.h"; sourceTree = "<group>"; };
+		291106201E8CDB0200634478 /* UILabel+DEWLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DEWLayout.m"; sourceTree = "<group>"; };
+		295505641E4C218E000F0969 /* Dew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dew.h; sourceTree = "<group>"; };
+		295505821E4C66A3000F0969 /* NSArray+DEWSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DEWSafe.h"; sourceTree = "<group>"; };
+		295505831E4C66A3000F0969 /* NSArray+DEWSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DEWSafe.m"; sourceTree = "<group>"; };
+		295505841E4C66A3000F0969 /* NSDate+DEWTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DEWTimeline.h"; sourceTree = "<group>"; };
+		295505851E4C66A3000F0969 /* NSDate+DEWTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DEWTimeline.m"; sourceTree = "<group>"; };
+		295505861E4C66A3000F0969 /* NSDictionary+DEWSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DEWSafe.h"; sourceTree = "<group>"; };
+		295505871E4C66A3000F0969 /* NSDictionary+DEWSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DEWSafe.m"; sourceTree = "<group>"; };
+		295505881E4C66A3000F0969 /* NSMutableArray+DEWDuplicateAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DEWDuplicateAdd.h"; sourceTree = "<group>"; };
+		295505891E4C66A3000F0969 /* NSMutableArray+DEWDuplicateAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DEWDuplicateAdd.m"; sourceTree = "<group>"; };
+		2955058A1E4C66A3000F0969 /* NSObject+DEWDefaultValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DEWDefaultValue.h"; sourceTree = "<group>"; };
+		2955058B1E4C66A3000F0969 /* NSObject+DEWDefaultValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DEWDefaultValue.m"; sourceTree = "<group>"; };
+		2955058C1E4C66A3000F0969 /* NSString+DEWLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DEWLayout.h"; sourceTree = "<group>"; };
+		2955058D1E4C66A3000F0969 /* NSString+DEWLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DEWLayout.m"; sourceTree = "<group>"; };
+		2955058E1E4C66A3000F0969 /* NSString+DEWMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DEWMD5.h"; sourceTree = "<group>"; };
+		2955058F1E4C66A3000F0969 /* NSString+DEWMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DEWMD5.m"; sourceTree = "<group>"; };
+		295505901E4C66A3000F0969 /* NSString+DEWRemoveSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DEWRemoveSpace.h"; sourceTree = "<group>"; };
+		295505911E4C66A3000F0969 /* NSString+DEWRemoveSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DEWRemoveSpace.m"; sourceTree = "<group>"; };
+		295505931E4C66A3000F0969 /* DEWArrayDuplicateWarpper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEWArrayDuplicateWarpper.h; sourceTree = "<group>"; };
+		295505941E4C66A3000F0969 /* DEWFirstStartWarpper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEWFirstStartWarpper.h; sourceTree = "<group>"; };
+		295505951E4C66A3000F0969 /* DEWFirstStartWarpper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEWFirstStartWarpper.m; sourceTree = "<group>"; };
+		295505971E4C66A3000F0969 /* UIColor+DEWHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DEWHex.h"; sourceTree = "<group>"; };
+		295505981E4C66A3000F0969 /* UIColor+DEWHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DEWHex.m"; sourceTree = "<group>"; };
+		295505991E4C66A3000F0969 /* UIControl+DEWAvoidMutiTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+DEWAvoidMutiTouch.h"; sourceTree = "<group>"; };
+		2955059A1E4C66A3000F0969 /* UIControl+DEWAvoidMutiTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DEWAvoidMutiTouch.m"; sourceTree = "<group>"; };
+		2955059B1E4C66A3000F0969 /* UIFont+DEWLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DEWLayout.h"; sourceTree = "<group>"; };
+		2955059C1E4C66A3000F0969 /* UIFont+DEWLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DEWLayout.m"; sourceTree = "<group>"; };
+		2955059D1E4C66A3000F0969 /* UIImage+DEWColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DEWColor.h"; sourceTree = "<group>"; };
+		2955059E1E4C66A3000F0969 /* UIImage+DEWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DEWColor.m"; sourceTree = "<group>"; };
+		2955059F1E4C66A3000F0969 /* UIImage+DEWCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DEWCompress.h"; sourceTree = "<group>"; };
+		295505A01E4C66A3000F0969 /* UIImage+DEWCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DEWCompress.m"; sourceTree = "<group>"; };
+		295505A11E4C66A3000F0969 /* UIImage+DEWCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DEWCornerRadius.h"; sourceTree = "<group>"; };
+		295505A21E4C66A3000F0969 /* UIImage+DEWCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DEWCornerRadius.m"; sourceTree = "<group>"; };
+		295505A31E4C66A3000F0969 /* UIScrollView+DEWTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DEWTouch.h"; sourceTree = "<group>"; };
+		295505A41E4C66A3000F0969 /* UIScrollView+DEWTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DEWTouch.m"; sourceTree = "<group>"; };
+		295505A51E4C66A3000F0969 /* UIView+DEWShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DEWShadow.h"; sourceTree = "<group>"; };
+		295505A61E4C66A3000F0969 /* UIView+DEWShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DEWShadow.m"; sourceTree = "<group>"; };
+		295505B81E4C83B0000F0969 /* UIButon+DEWTouchBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButon+DEWTouchBounds.h"; sourceTree = "<group>"; };
+		295505B91E4C83B0000F0969 /* UIButon+DEWTouchBounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButon+DEWTouchBounds.m"; sourceTree = "<group>"; };
+		295505BB1E4C9109000F0969 /* UILabel+DEWLineSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DEWLineSpacing.h"; sourceTree = "<group>"; };
+		295505BC1E4C9109000F0969 /* UILabel+DEWLineSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DEWLineSpacing.m"; sourceTree = "<group>"; };
+		295505BE1E4C986A000F0969 /* DEWCGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEWCGUtilities.h; sourceTree = "<group>"; };
+		295505BF1E4C986A000F0969 /* DEWCGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEWCGUtilities.m; sourceTree = "<group>"; };
+		295505C11E4C9933000F0969 /* DEWMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEWMacro.h; sourceTree = "<group>"; };
+		2955060F1E4DB195000F0969 /* UIBarButtonItem+DEWBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DEWBadge.h"; sourceTree = "<group>"; };
+		295506101E4DB195000F0969 /* UIBarButtonItem+DEWBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DEWBadge.m"; sourceTree = "<group>"; };
+		299599141E349DA4003D714B /* Dew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		299599181E349DA4003D714B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2995991A1E349DA4003D714B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2995991B1E349DA4003D714B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2995991D1E349DA4003D714B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2995991E1E349DA4003D714B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		299599211E349DA4003D714B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		299599231E349DA4003D714B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		299599261E349DA4003D714B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		299599281E349DA4003D714B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BE493D1E8380F200625F6D /* UIViewController+DEWAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DEWAlertController.h"; sourceTree = "<group>"; };
+		29BE493E1E8380F200625F6D /* UIViewController+DEWAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DEWAlertController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		299599111E349DA4003D714B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		295505811E4C66A3000F0969 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				295505821E4C66A3000F0969 /* NSArray+DEWSafe.h */,
+				295505831E4C66A3000F0969 /* NSArray+DEWSafe.m */,
+				295505841E4C66A3000F0969 /* NSDate+DEWTimeline.h */,
+				295505851E4C66A3000F0969 /* NSDate+DEWTimeline.m */,
+				295505861E4C66A3000F0969 /* NSDictionary+DEWSafe.h */,
+				295505871E4C66A3000F0969 /* NSDictionary+DEWSafe.m */,
+				295505881E4C66A3000F0969 /* NSMutableArray+DEWDuplicateAdd.h */,
+				295505891E4C66A3000F0969 /* NSMutableArray+DEWDuplicateAdd.m */,
+				2955058A1E4C66A3000F0969 /* NSObject+DEWDefaultValue.h */,
+				2955058B1E4C66A3000F0969 /* NSObject+DEWDefaultValue.m */,
+				2955058C1E4C66A3000F0969 /* NSString+DEWLayout.h */,
+				2955058D1E4C66A3000F0969 /* NSString+DEWLayout.m */,
+				2955058E1E4C66A3000F0969 /* NSString+DEWMD5.h */,
+				2955058F1E4C66A3000F0969 /* NSString+DEWMD5.m */,
+				295505901E4C66A3000F0969 /* NSString+DEWRemoveSpace.h */,
+				295505911E4C66A3000F0969 /* NSString+DEWRemoveSpace.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		295505921E4C66A3000F0969 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				295505931E4C66A3000F0969 /* DEWArrayDuplicateWarpper.h */,
+				295505941E4C66A3000F0969 /* DEWFirstStartWarpper.h */,
+				295505951E4C66A3000F0969 /* DEWFirstStartWarpper.m */,
+				295505BE1E4C986A000F0969 /* DEWCGUtilities.h */,
+				295505BF1E4C986A000F0969 /* DEWCGUtilities.m */,
+				295505C11E4C9933000F0969 /* DEWMacro.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		295505961E4C66A3000F0969 /* UIkit */ = {
+			isa = PBXGroup;
+			children = (
+				290251C01E85082A000D74EB /* UIImage+DEWAvoid.h */,
+				290251C11E85082A000D74EB /* UIImage+DEWAvoid.m */,
+				295505971E4C66A3000F0969 /* UIColor+DEWHex.h */,
+				295505981E4C66A3000F0969 /* UIColor+DEWHex.m */,
+				295505991E4C66A3000F0969 /* UIControl+DEWAvoidMutiTouch.h */,
+				2955059A1E4C66A3000F0969 /* UIControl+DEWAvoidMutiTouch.m */,
+				2955059B1E4C66A3000F0969 /* UIFont+DEWLayout.h */,
+				2955059C1E4C66A3000F0969 /* UIFont+DEWLayout.m */,
+				2955059D1E4C66A3000F0969 /* UIImage+DEWColor.h */,
+				2955059E1E4C66A3000F0969 /* UIImage+DEWColor.m */,
+				2955059F1E4C66A3000F0969 /* UIImage+DEWCompress.h */,
+				295505A01E4C66A3000F0969 /* UIImage+DEWCompress.m */,
+				295505A11E4C66A3000F0969 /* UIImage+DEWCornerRadius.h */,
+				295505A21E4C66A3000F0969 /* UIImage+DEWCornerRadius.m */,
+				295505A31E4C66A3000F0969 /* UIScrollView+DEWTouch.h */,
+				295505A41E4C66A3000F0969 /* UIScrollView+DEWTouch.m */,
+				295505A51E4C66A3000F0969 /* UIView+DEWShadow.h */,
+				295505A61E4C66A3000F0969 /* UIView+DEWShadow.m */,
+				295505B81E4C83B0000F0969 /* UIButon+DEWTouchBounds.h */,
+				295505B91E4C83B0000F0969 /* UIButon+DEWTouchBounds.m */,
+				295505BB1E4C9109000F0969 /* UILabel+DEWLineSpacing.h */,
+				295505BC1E4C9109000F0969 /* UILabel+DEWLineSpacing.m */,
+				2955060F1E4DB195000F0969 /* UIBarButtonItem+DEWBadge.h */,
+				295506101E4DB195000F0969 /* UIBarButtonItem+DEWBadge.m */,
+				29BE493D1E8380F200625F6D /* UIViewController+DEWAlertController.h */,
+				29BE493E1E8380F200625F6D /* UIViewController+DEWAlertController.m */,
+				2911061F1E8CDB0200634478 /* UILabel+DEWLayout.h */,
+				291106201E8CDB0200634478 /* UILabel+DEWLayout.m */,
+			);
+			path = UIkit;
+			sourceTree = "<group>";
+		};
+		2995990B1E349DA4003D714B = {
+			isa = PBXGroup;
+			children = (
+				299599161E349DA4003D714B /* Dew */,
+				299599151E349DA4003D714B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		299599151E349DA4003D714B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				299599141E349DA4003D714B /* Dew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		299599161E349DA4003D714B /* Dew */ = {
+			isa = PBXGroup;
+			children = (
+				2995992E1E349F1E003D714B /* Dew */,
+				2995991A1E349DA4003D714B /* AppDelegate.h */,
+				2995991B1E349DA4003D714B /* AppDelegate.m */,
+				2995991D1E349DA4003D714B /* ViewController.h */,
+				2995991E1E349DA4003D714B /* ViewController.m */,
+				299599201E349DA4003D714B /* Main.storyboard */,
+				299599231E349DA4003D714B /* Assets.xcassets */,
+				299599251E349DA4003D714B /* LaunchScreen.storyboard */,
+				299599281E349DA4003D714B /* Info.plist */,
+				299599171E349DA4003D714B /* Supporting Files */,
+			);
+			path = Dew;
+			sourceTree = "<group>";
+		};
+		299599171E349DA4003D714B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				299599181E349DA4003D714B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2995992E1E349F1E003D714B /* Dew */ = {
+			isa = PBXGroup;
+			children = (
+				295505641E4C218E000F0969 /* Dew.h */,
+				295505921E4C66A3000F0969 /* Tools */,
+				295505811E4C66A3000F0969 /* Foundation */,
+				295505961E4C66A3000F0969 /* UIkit */,
+			);
+			path = Dew;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		299599131E349DA4003D714B /* Dew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2995992B1E349DA4003D714B /* Build configuration list for PBXNativeTarget "Dew" */;
+			buildPhases = (
+				299599101E349DA4003D714B /* Sources */,
+				299599111E349DA4003D714B /* Frameworks */,
+				299599121E349DA4003D714B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dew;
+			productName = Dew;
+			productReference = 299599141E349DA4003D714B /* Dew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2995990C1E349DA4003D714B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dawa Co., Ltd.";
+				TargetAttributes = {
+					299599131E349DA4003D714B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FT42P2ET2M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2995990F1E349DA4003D714B /* Build configuration list for PBXProject "Dew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2995990B1E349DA4003D714B;
+			productRefGroup = 299599151E349DA4003D714B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				299599131E349DA4003D714B /* Dew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299599121E349DA4003D714B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299599271E349DA4003D714B /* LaunchScreen.storyboard in Resources */,
+				299599241E349DA4003D714B /* Assets.xcassets in Resources */,
+				299599221E349DA4003D714B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		299599101E349DA4003D714B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295505C01E4C986A000F0969 /* DEWCGUtilities.m in Sources */,
+				295505BA1E4C83B0000F0969 /* UIButon+DEWTouchBounds.m in Sources */,
+				295505AF1E4C66A3000F0969 /* DEWFirstStartWarpper.m in Sources */,
+				295505AA1E4C66A3000F0969 /* NSMutableArray+DEWDuplicateAdd.m in Sources */,
+				295505B21E4C66A3000F0969 /* UIFont+DEWLayout.m in Sources */,
+				295505AC1E4C66A3000F0969 /* NSString+DEWLayout.m in Sources */,
+				295506111E4DB195000F0969 /* UIBarButtonItem+DEWBadge.m in Sources */,
+				295505A91E4C66A3000F0969 /* NSDictionary+DEWSafe.m in Sources */,
+				295505B51E4C66A3000F0969 /* UIImage+DEWCornerRadius.m in Sources */,
+				295505AB1E4C66A3000F0969 /* NSObject+DEWDefaultValue.m in Sources */,
+				2995991F1E349DA4003D714B /* ViewController.m in Sources */,
+				29BE493F1E8380F200625F6D /* UIViewController+DEWAlertController.m in Sources */,
+				290251C21E85082A000D74EB /* UIImage+DEWAvoid.m in Sources */,
+				295505B01E4C66A3000F0969 /* UIColor+DEWHex.m in Sources */,
+				295505B31E4C66A3000F0969 /* UIImage+DEWColor.m in Sources */,
+				295505B11E4C66A3000F0969 /* UIControl+DEWAvoidMutiTouch.m in Sources */,
+				295505AD1E4C66A3000F0969 /* NSString+DEWMD5.m in Sources */,
+				2995991C1E349DA4003D714B /* AppDelegate.m in Sources */,
+				295505B41E4C66A3000F0969 /* UIImage+DEWCompress.m in Sources */,
+				295505BD1E4C9109000F0969 /* UILabel+DEWLineSpacing.m in Sources */,
+				295505B61E4C66A3000F0969 /* UIScrollView+DEWTouch.m in Sources */,
+				291106211E8CDB0200634478 /* UILabel+DEWLayout.m in Sources */,
+				295505B71E4C66A3000F0969 /* UIView+DEWShadow.m in Sources */,
+				295505A71E4C66A3000F0969 /* NSArray+DEWSafe.m in Sources */,
+				295505AE1E4C66A3000F0969 /* NSString+DEWRemoveSpace.m in Sources */,
+				299599191E349DA4003D714B /* main.m in Sources */,
+				295505A81E4C66A3000F0969 /* NSDate+DEWTimeline.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		299599201E349DA4003D714B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299599211E349DA4003D714B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		299599251E349DA4003D714B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299599261E349DA4003D714B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		299599291E349DA4003D714B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2995992A1E349DA4003D714B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2995992C1E349DA4003D714B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FT42P2ET2M;
+				INFOPLIST_FILE = Dew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dawa.Dew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2995992D1E349DA4003D714B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FT42P2ET2M;
+				INFOPLIST_FILE = Dew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dawa.Dew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2995990F1E349DA4003D714B /* Build configuration list for PBXProject "Dew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299599291E349DA4003D714B /* Debug */,
+				2995992A1E349DA4003D714B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2995992B1E349DA4003D714B /* Build configuration list for PBXNativeTarget "Dew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2995992C1E349DA4003D714B /* Debug */,
+				2995992D1E349DA4003D714B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2995990C1E349DA4003D714B /* Project object */;
+}
